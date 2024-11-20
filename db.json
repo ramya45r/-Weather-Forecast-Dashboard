@@ -1,0 +1,31 @@
+{
+    "cities": [
+      {
+        "id": 1,
+        "name": "New York",
+        "currentTemp": 15,
+        "condition": "Cloudy",
+        "highTemp": 20,
+        "lowTemp": 10,
+        "forecast": [
+          { "day": "Tomorrow", "temp": 18 },
+          { "day": "Day After", "temp": 16 },
+          { "day": "3rd Day", "temp": 19 }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Los Angeles",
+        "currentTemp": 25,
+        "condition": "Sunny",
+        "highTemp": 28,
+        "lowTemp": 22,
+        "forecast": [
+          { "day": "Tomorrow", "temp": 26 },
+          { "day": "Day After", "temp": 27 },
+          { "day": "3rd Day", "temp": 25 }
+        ]
+      }
+    ]
+  }
+  
