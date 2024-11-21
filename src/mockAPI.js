@@ -1,0 +1,67 @@
+export const mockCities = [
+  {
+    id: 1,
+    name: "New York",
+    currentTemp: "22°C",
+    weather: "Sunny",
+    highTemp: "25°C",
+    lowTemp: "18°C",
+    forecast: [
+      { day: "Day 1", high: 24, low: 19 },
+      { day: "Day 2", high: 23, low: 18 },
+      { day: "Day 3", high: 22, low: 17 },
+    ],
+  },
+  {
+    id: 2,
+    name: "London",
+    currentTemp: "16°C",
+    weather: "Cloudy",
+    highTemp: "18°C",
+    lowTemp: "14°C",
+    forecast: [
+      { day: "Day 1", high: 17, low: 15 },
+      { day: "Day 2", high: 18, low: 14 },
+      { day: "Day 3", high: 16, low: 13 },
+    ],
+  },
+  {
+    id: 3,
+    name: "Tokyo",
+    currentTemp: "28°C",
+    weather: "Rainy",
+    highTemp: "30°C",
+    lowTemp: "25°C",
+    forecast: [
+      { day: "Day 1", high: 29, low: 26 },
+      { day: "Day 2", high: 30, low: 25 },
+      { day: "Day 3", high: 27, low: 24 },
+    ],
+  },
+  {
+    id: 4,
+    name: "Sydney",
+    currentTemp: "20°C",
+    weather: "Windy",
+    highTemp: "22°C",
+    lowTemp: "18°C",
+    forecast: [
+      { day: "Day 1", high: 21, low: 19 },
+      { day: "Day 2", high: 22, low: 18 },
+      { day: "Day 3", high: 20, low: 17 },
+    ],
+  },
+  {
+    id: 5,
+    name: "Paris",
+    currentTemp: "19°C",
+    weather: "Partly Cloudy",
+    highTemp: "21°C",
+    lowTemp: "16°C",
+    forecast: [
+      { day: "Day 1", high: 20, low: 17 },
+      { day: "Day 2", high: 21, low: 16 },
+      { day: "Day 3", high: 19, low: 15 },
+    ],
+  },
+];
