@@ -1,7 +1,7 @@
 import React from "react";
 import "./CityCard.css";
 
-const CityCard = ({ city, onRemove, onSelect, isSelected }) => {
+const City = ({ city, onRemove, onSelect, isSelected }) => {
   return (
     <div
       className={`city-card ${isSelected ? "selected" : ""}`}
@@ -35,4 +35,4 @@ const CityCard = ({ city, onRemove, onSelect, isSelected }) => {
   );
 };
 
-export default CityCard;
+export default City;
